@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Chat360SDK"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Chat360.io iOS SDK."
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   This SDK is intented for using chat360 inside your project.
                    DESC
 
-  spec.homepage     = "https://chat360.io"
+  spec.homepage     = "https://github.com/Rokimkar/chat360SDK"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Rokimkar/chat360SDK.git", :tag => "0.0.1" }
+  spec.source       = { :git => "https://github.com/Rokimkar/chat360SDK.git", :tag => "0.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
