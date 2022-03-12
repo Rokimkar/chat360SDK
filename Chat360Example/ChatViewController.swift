@@ -6,7 +6,7 @@
 //
 
 import UIKit
-//import Chat360SDK
+import Chat360SDK
 
 class ChatViewController: UIViewController {
 
@@ -16,6 +16,8 @@ class ChatViewController: UIViewController {
     }
     
     @IBAction func launchTapped(_ sender: Any) {
+        let config  = ChatConfigs.init(url: "https://chat360.io")
+        ChatLauncher.showChat(with: config, parentController: self)
 //        let config = ChatConfigs(url: "https:chat360.io")
 //        ChatLauncher.showChat(with: config, parentController: self)
     }
