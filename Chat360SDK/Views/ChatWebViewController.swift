@@ -11,6 +11,7 @@ import WebKit
 class ChatWebViewController: UIViewController {
     
     private var webView: WKWebView!
+    var config: ChatConfigs?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,9 +19,11 @@ class ChatWebViewController: UIViewController {
     }
     
     private func configureChatWebView(){
-        let urlToLoad = URL(string: "https://chat360.io")
-        let request = URLRequest(url: urlToLoad!)
-        webView.load(request)
+        if let url = config?.url{
+            let urlToLoad = URL(string: url)
+            let request = URLRequest(url: urlToLoad!)
+            webView.load(request)
+        }
     }
     
     override func loadView() {

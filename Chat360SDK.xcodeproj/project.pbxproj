@@ -13,6 +13,16 @@
 		2F5984D027D92B4000DC8777 /* Chat360SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F5984C227D92B4000DC8777 /* Chat360SDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F5984DB27DC767800DC8777 /* ChatWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5984D927DC767800DC8777 /* ChatWebViewController.swift */; };
 		2F5984DC27DC767800DC8777 /* ChatWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5984DA27DC767800DC8777 /* ChatWebViewController.xib */; };
+		2F5984E527DC816700DC8777 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5984E427DC816700DC8777 /* AppDelegate.swift */; };
+		2F5984E727DC816700DC8777 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5984E627DC816700DC8777 /* SceneDelegate.swift */; };
+		2F5984E927DC816700DC8777 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5984E827DC816700DC8777 /* ChatViewController.swift */; };
+		2F5984EC27DC816700DC8777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5984EA27DC816700DC8777 /* Main.storyboard */; };
+		2F5984EE27DC816900DC8777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F5984ED27DC816900DC8777 /* Assets.xcassets */; };
+		2F5984F127DC816900DC8777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5984EF27DC816900DC8777 /* LaunchScreen.storyboard */; };
+		2F5984FC27DC816900DC8777 /* Chat360ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5984FB27DC816900DC8777 /* Chat360ExampleTests.swift */; };
+		2F59850627DC816A00DC8777 /* Chat360ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59850527DC816A00DC8777 /* Chat360ExampleUITests.swift */; };
+		2F59850827DC816A00DC8777 /* Chat360ExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59850727DC816A00DC8777 /* Chat360ExampleUITestsLaunchTests.swift */; };
+		2F59851327DC841100DC8777 /* ChatLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59851227DC841100DC8777 /* ChatLauncher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +32,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 2F5984BE27D92B3F00DC8777;
 			remoteInfo = Chat360SDK;
+		};
+		2F5984F827DC816900DC8777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F5984B627D92B3F00DC8777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F5984E127DC816700DC8777;
+			remoteInfo = Chat360Example;
+		};
+		2F59850227DC816A00DC8777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F5984B627D92B3F00DC8777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F5984E127DC816700DC8777;
+			remoteInfo = Chat360Example;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -33,6 +57,20 @@
 		2F5984CE27D92B4000DC8777 /* Chat360SDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat360SDKTests.swift; sourceTree = "<group>"; };
 		2F5984D927DC767800DC8777 /* ChatWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatWebViewController.swift; sourceTree = "<group>"; };
 		2F5984DA27DC767800DC8777 /* ChatWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatWebViewController.xib; sourceTree = "<group>"; };
+		2F5984E227DC816700DC8777 /* Chat360Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat360Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5984E427DC816700DC8777 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F5984E627DC816700DC8777 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2F5984E827DC816700DC8777 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		2F5984EB27DC816700DC8777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F5984ED27DC816900DC8777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F5984F027DC816900DC8777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F5984F227DC816900DC8777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5984F727DC816900DC8777 /* Chat360ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chat360ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5984FB27DC816900DC8777 /* Chat360ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat360ExampleTests.swift; sourceTree = "<group>"; };
+		2F59850127DC816A00DC8777 /* Chat360ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chat360ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F59850527DC816A00DC8777 /* Chat360ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat360ExampleUITests.swift; sourceTree = "<group>"; };
+		2F59850727DC816A00DC8777 /* Chat360ExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat360ExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F59851227DC841100DC8777 /* ChatLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLauncher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +89,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2F5984DF27DC816700DC8777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5984F427DC816900DC8777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5984FE27DC816A00DC8777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -59,6 +118,9 @@
 			children = (
 				2F5984C127D92B4000DC8777 /* Chat360SDK */,
 				2F5984CD27D92B4000DC8777 /* Chat360SDKTests */,
+				2F5984E327DC816700DC8777 /* Chat360Example */,
+				2F5984FA27DC816900DC8777 /* Chat360ExampleTests */,
+				2F59850427DC816A00DC8777 /* Chat360ExampleUITests */,
 				2F5984C027D92B4000DC8777 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,6 +130,9 @@
 			children = (
 				2F5984BF27D92B4000DC8777 /* Chat360SDK.framework */,
 				2F5984C927D92B4000DC8777 /* Chat360SDKTests.xctest */,
+				2F5984E227DC816700DC8777 /* Chat360Example.app */,
+				2F5984F727DC816900DC8777 /* Chat360ExampleTests.xctest */,
+				2F59850127DC816A00DC8777 /* Chat360ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +143,7 @@
 				2F5984C227D92B4000DC8777 /* Chat360SDK.h */,
 				2F5984C327D92B4000DC8777 /* Chat360SDK.docc */,
 				2F5984DD27DC768700DC8777 /* Views */,
+				2F59851427DC841A00DC8777 /* Configs */,
 			);
 			path = Chat360SDK;
 			sourceTree = "<group>";
@@ -97,6 +163,45 @@
 				2F5984DA27DC767800DC8777 /* ChatWebViewController.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		2F5984E327DC816700DC8777 /* Chat360Example */ = {
+			isa = PBXGroup;
+			children = (
+				2F5984E427DC816700DC8777 /* AppDelegate.swift */,
+				2F5984E627DC816700DC8777 /* SceneDelegate.swift */,
+				2F5984E827DC816700DC8777 /* ChatViewController.swift */,
+				2F5984EA27DC816700DC8777 /* Main.storyboard */,
+				2F5984ED27DC816900DC8777 /* Assets.xcassets */,
+				2F5984EF27DC816900DC8777 /* LaunchScreen.storyboard */,
+				2F5984F227DC816900DC8777 /* Info.plist */,
+			);
+			path = Chat360Example;
+			sourceTree = "<group>";
+		};
+		2F5984FA27DC816900DC8777 /* Chat360ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F5984FB27DC816900DC8777 /* Chat360ExampleTests.swift */,
+			);
+			path = Chat360ExampleTests;
+			sourceTree = "<group>";
+		};
+		2F59850427DC816A00DC8777 /* Chat360ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F59850527DC816A00DC8777 /* Chat360ExampleUITests.swift */,
+				2F59850727DC816A00DC8777 /* Chat360ExampleUITestsLaunchTests.swift */,
+			);
+			path = Chat360ExampleUITests;
+			sourceTree = "<group>";
+		};
+		2F59851427DC841A00DC8777 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				2F59851227DC841100DC8777 /* ChatLauncher.swift */,
+			);
+			path = Configs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +254,59 @@
 			productReference = 2F5984C927D92B4000DC8777 /* Chat360SDKTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2F5984E127DC816700DC8777 /* Chat360Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F59850927DC816A00DC8777 /* Build configuration list for PBXNativeTarget "Chat360Example" */;
+			buildPhases = (
+				2F5984DE27DC816700DC8777 /* Sources */,
+				2F5984DF27DC816700DC8777 /* Frameworks */,
+				2F5984E027DC816700DC8777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chat360Example;
+			productName = Chat360Example;
+			productReference = 2F5984E227DC816700DC8777 /* Chat360Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F5984F627DC816900DC8777 /* Chat360ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F59850C27DC816A00DC8777 /* Build configuration list for PBXNativeTarget "Chat360ExampleTests" */;
+			buildPhases = (
+				2F5984F327DC816900DC8777 /* Sources */,
+				2F5984F427DC816900DC8777 /* Frameworks */,
+				2F5984F527DC816900DC8777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F5984F927DC816900DC8777 /* PBXTargetDependency */,
+			);
+			name = Chat360ExampleTests;
+			productName = Chat360ExampleTests;
+			productReference = 2F5984F727DC816900DC8777 /* Chat360ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F59850027DC816A00DC8777 /* Chat360ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F59850F27DC816A00DC8777 /* Build configuration list for PBXNativeTarget "Chat360ExampleUITests" */;
+			buildPhases = (
+				2F5984FD27DC816A00DC8777 /* Sources */,
+				2F5984FE27DC816A00DC8777 /* Frameworks */,
+				2F5984FF27DC816A00DC8777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F59850327DC816A00DC8777 /* PBXTargetDependency */,
+			);
+			name = Chat360ExampleUITests;
+			productName = Chat360ExampleUITests;
+			productReference = 2F59850127DC816A00DC8777 /* Chat360ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,6 +322,17 @@
 					};
 					2F5984C827D92B4000DC8777 = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					2F5984E127DC816700DC8777 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					2F5984F627DC816900DC8777 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2F5984E127DC816700DC8777;
+					};
+					2F59850027DC816A00DC8777 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2F5984E127DC816700DC8777;
 					};
 				};
 			};
@@ -182,6 +351,9 @@
 			targets = (
 				2F5984BE27D92B3F00DC8777 /* Chat360SDK */,
 				2F5984C827D92B4000DC8777 /* Chat360SDKTests */,
+				2F5984E127DC816700DC8777 /* Chat360Example */,
+				2F5984F627DC816900DC8777 /* Chat360ExampleTests */,
+				2F59850027DC816A00DC8777 /* Chat360ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +374,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2F5984E027DC816700DC8777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5984F127DC816900DC8777 /* LaunchScreen.storyboard in Resources */,
+				2F5984EE27DC816900DC8777 /* Assets.xcassets in Resources */,
+				2F5984EC27DC816700DC8777 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5984F527DC816900DC8777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5984FF27DC816A00DC8777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -211,6 +407,7 @@
 			files = (
 				2F5984C427D92B4000DC8777 /* Chat360SDK.docc in Sources */,
 				2F5984DB27DC767800DC8777 /* ChatWebViewController.swift in Sources */,
+				2F59851327DC841100DC8777 /* ChatLauncher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +419,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2F5984DE27DC816700DC8777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5984E927DC816700DC8777 /* ChatViewController.swift in Sources */,
+				2F5984E527DC816700DC8777 /* AppDelegate.swift in Sources */,
+				2F5984E727DC816700DC8777 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5984F327DC816900DC8777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5984FC27DC816900DC8777 /* Chat360ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5984FD27DC816A00DC8777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F59850627DC816A00DC8777 /* Chat360ExampleUITests.swift in Sources */,
+				2F59850827DC816A00DC8777 /* Chat360ExampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -230,7 +454,36 @@
 			target = 2F5984BE27D92B3F00DC8777 /* Chat360SDK */;
 			targetProxy = 2F5984CB27D92B4000DC8777 /* PBXContainerItemProxy */;
 		};
+		2F5984F927DC816900DC8777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F5984E127DC816700DC8777 /* Chat360Example */;
+			targetProxy = 2F5984F827DC816900DC8777 /* PBXContainerItemProxy */;
+		};
+		2F59850327DC816A00DC8777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F5984E127DC816700DC8777 /* Chat360Example */;
+			targetProxy = 2F59850227DC816A00DC8777 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F5984EA27DC816700DC8777 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F5984EB27DC816700DC8777 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F5984EF27DC816900DC8777 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F5984F027DC816900DC8777 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2F5984D127D92B4000DC8777 /* Debug */ = {
@@ -441,6 +694,132 @@
 			};
 			name = Release;
 		};
+		2F59850A27DC816A00DC8777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chat360Example/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chat360.io.Chat360Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F59850B27DC816A00DC8777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chat360Example/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chat360.io.Chat360Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F59850D27DC816A00DC8777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chat360.io.Chat360ExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chat360Example.app/Chat360Example";
+			};
+			name = Debug;
+		};
+		2F59850E27DC816A00DC8777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chat360.io.Chat360ExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chat360Example.app/Chat360Example";
+			};
+			name = Release;
+		};
+		2F59851027DC816A00DC8777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chat360.io.Chat360ExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chat360Example;
+			};
+			name = Debug;
+		};
+		2F59851127DC816A00DC8777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chat360.io.Chat360ExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chat360Example;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -467,6 +846,33 @@
 			buildConfigurations = (
 				2F5984D727D92B4000DC8777 /* Debug */,
 				2F5984D827D92B4000DC8777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F59850927DC816A00DC8777 /* Build configuration list for PBXNativeTarget "Chat360Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F59850A27DC816A00DC8777 /* Debug */,
+				2F59850B27DC816A00DC8777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F59850C27DC816A00DC8777 /* Build configuration list for PBXNativeTarget "Chat360ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F59850D27DC816A00DC8777 /* Debug */,
+				2F59850E27DC816A00DC8777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F59850F27DC816A00DC8777 /* Build configuration list for PBXNativeTarget "Chat360ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F59851027DC816A00DC8777 /* Debug */,
+				2F59851127DC816A00DC8777 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
