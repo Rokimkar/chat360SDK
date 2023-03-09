@@ -16,10 +16,8 @@ class ChatViewController: UIViewController {
     }
     
     @IBAction func launchTapped(_ sender: Any) {
-        let config  = ChatConfigs.init(url: "https://chat360.io")
+        let config  = ChatConfigs(botId: "e4e9d4f8-4bcd-46f6-a8a3-6c9126d1bb16", appId: "com.chat360.chat360demoapp")
         ChatLauncher.showChat(with: config, parentController: self)
-//        let config = ChatConfigs(url: "https:chat360.io")
-//        ChatLauncher.showChat(with: config, parentController: self)
     }
     
 }

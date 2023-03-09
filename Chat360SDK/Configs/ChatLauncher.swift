@@ -20,9 +20,23 @@ public class ChatLauncher{
 }
 
 public struct ChatConfigs{
-    let url: String
+    var baseUrl: String = "https://app.chat360.io/page?h="
+    private var stagingUrl = "https://app.gaadibaazar.in/page?h="
+    var botId: String? = ""
+    var appId: String? = ""
+    var isDebug: Bool = false
     
-    public init(url: String){
-        self.url = url
+    public init(botId: String, appId: String,deviceToken: String = "", isDebug: Bool = false){
+        self.botId = botId
+        self.appId = appId
+        self.isDebug = isDebug
+    }
+    
+    func createUrl() -> String{
+        if isDebug{
+            return "\(stagingUrl)\(botId ?? "")&store_session=1&app_id=\(appId ?? "")"
+        }else{
+            return "\(baseUrl)\(botId ?? "")&store_session=1&app_id=\(appId ?? "")"
+        }
     }
 }
